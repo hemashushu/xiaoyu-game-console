@@ -4,7 +4,7 @@ XiaoXuan Console 是一个教学目的的 8 位风格游戏主机
 
 XiaoXuan Console is an 8-bit style game console for education purposes.
 
-## 规格
+## 主机规格
 
 1. [自制的开源 RISC-V CPU](https://github.com/hemashushu/xiaoxuan-rv32-soc) 48MHz
 2. 256KB 运行内存
@@ -35,6 +35,9 @@ XiaoXuan Console is an 8-bit style game console for education purposes.
 2. 游戏主机的运行环境自带图形库、支持二次开发，环境自带游戏库管理界面，支持分享和下载自制的游戏。
 3. CPU 可以替换为 RP2040（Raspberry Pi Pico）或者 ESP32-C3 或者 STM32F4，以获取更高的性能。
 4. 储存空间由 SPI Flash 提供，可以替换更大容量的 Flash。
+5. 自带 WebAssembly 版本的模拟器，可以在网页浏览器里运行整套系统。
 
-点击 [从零开始一步一步制作 XiaoXuan Console](docs/tutorial/README.md) 进入教程
+## 开始
 
+- 教程 [从零开始一步一步制作 XiaoXuan Console](docs/tutorial/README.md)
+- 在线网页版 [主机模拟器](https://hemashushu.github.io/xiaoxuan-console/emulator)
